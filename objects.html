@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Question 1
+        let students={
+            name:"Amina",
+            Age:20,
+            Course:"Database",
+        }
+        console.log(students);
+           // Question 1
+           let cars={
+            brand:"Toyota",
+            model:"carolla",
+            year:2025,
+           }
+           console.log(cars)
+                   // Question 1
+                   let phonenumber={
+                    company:"samsung",
+                    storage:"128gb",
+                    battery:"85%",
+
+                   }
+                   console.log(phonenumber)
+          // Question 2
+          function emplyee(name,salary,role){
+            this.name=name;
+            this.salary=salary;
+            this.role=role;
+
+          }
+          let emp1=new emplyee("kamaal",800,"Ceo")
+          console.log(emp1)
+            // Question 2
+            function onlineshop(productname,price,instock){
+                this.productname=productname,
+                this.price=price,
+                this.instock=instock;
+            }
+            let on1=new onlineshop("laptop",300,"true");
+            console.log(on1)
+              // Question 2
+              function books(title,author,page){
+                this.title=title;
+                this.author=author;
+                this.page=page;
+              }
+              let book1=new books("javascript","Jhon Doe",250)
+              console.log(book1)
+                // Question 3
+                class teacher{
+                    constructor(name,subject,experience){
+                        this .name=name;
+                        this.subject=subject;
+                        this.experience=experience;
+            
+                    }
+                                
+                    
+                }
+                techer1=new teacher("fatima","math",5);
+                console.log(techer1)
+                class Bankaccount{
+                    constructor(accountnumber,owername,balance){
+                        this.accountnumber=accountnumber;
+                        this.owername=owername;
+                        this.balance=balance;
+                    }
+                   
+                }
+                 bank1=new Bankaccount("hormuud","Barkhadle",400)
+                console.log(bank1)
+                class Animal{
+                    constructor(type,color,age){
+                        this.type=type;
+                        this.color=color;
+                        this.age=age;
+                    }
+                   
+                }
+                 Animal1=new Animal("Cat","white",2)
+                console.log(Animal1)
+                // Question 4
+                let lapatop={
+                    brand:"Dell",
+                    ram:"8Gb",
+                    price:700,
+
+                };
+                
+                console.log("brand",lapatop.brand);
+                lapatop.ram="16Gb";
+                console.log(lapatop)
+                     // Question 4
+                     let profile={
+                        username:"Ali2025",
+                        email:"ali@exaple.com",
+                        age:22,
+
+                     }
+                     console.log("email",profile.email);
+                     profile.email="ali.new@example.com";
+                     console.log(profile)
+                          // Question 5 Adding new elements
+                          let objectcar={
+                            bramd:"Honda",
+                            model:"civic",
+                            year:2019,
+                          }
+                          objectcar.owner="omar";
+                          objectcar["last service-date"]="2025-12-1";
+                          console.log(objectcar)
+                           // Question 5 Adding new elements
+                           students={
+                            name:"maryan",
+                            grade:"A",
+                            school:"Afbaro academy",
+                           }
+                           students.age=18;
+                           students["favourite subjects"]="physics";
+                           console.log(students)
+                           shopitem={
+                            itemname:""
+                           }
+
+    </script>
+    
+</body>
+</html>
