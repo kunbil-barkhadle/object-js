@@ -7,6 +7,7 @@
 </head>
 <body>
     <script>
+     
         // Question 1
         let students={
             name:"Amina",
@@ -129,6 +130,56 @@
                            shopitem={
                             itemname:""
                            }
+                             // Question 6 Iterating through objects
+                                let menuretaurant={
+            burger:5,
+            pizza:8,
+            juice:3,
+            
+        };
+        for(let item in menuretaurant){
+            console.log(item +menuretaurant[item]);
+        }
+          // Question 6 Iterating through objects
+          let city={
+            population:500000,
+            mayor:"Hassan",
+            area:"200 sq km",
+
+          }
+          for(let key in city){
+            console.log(key +city[key]);
+          }
+        //   Question 7 converting object to json string
+        let movie={
+            title:"inception",
+            duration:"2h 30m",
+            rating:9,
+        }
+        let movieJson=JSON.stringify(movie);
+        console.log(movieJson)
+           //   Question 7 converting object to json string
+   
+           let jsonString = '{"name":"Sara","age":25,"country":"Kenya"}';
+
+
+let person = JSON.parse(jsonString);
+
+
+console.log("Name:", person.name);
+console.log("Age:", person.age);
+console.log("Country:", person.country);
+     //   Question 7 converting object to json string
+     let weather={
+        temperature:32,
+        humidity:"70%",
+        condition:"sunny",
+     }
+     let weatherjson=JSON.stringify(weather);
+     let finalweather=JSON.stringify(weatherjson);
+     console.log(finalweather);
+                             
+
 
     </script>
     
